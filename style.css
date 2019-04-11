@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", "Arial", sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #0083B0;
+}
+.welcome {
+    font-size: 20px;
+}
+
+.welcome__img {
+    border-radius: 50%;
+}
+
+.list {
+    padding: 0;
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+}
+
+.works__link {
+    color: #000;
+    display: block;
+    width: 100%;
+ }
+
+a:visited {
+    color: #1f3896;
+}
+
+.works__item {
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
